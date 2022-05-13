@@ -1,0 +1,46 @@
+@media (max-width: 59em) {
+  html {
+     font-size: 50%;
+  }
+
+  main {
+    flex-direction: column;
+    width: 80%;
+    height: 70%;
+    overflow: visible;
+  }
+  .player {
+    padding: 3rem;
+  }
+  .player.player--1 {
+    flex-direction: column-reverse;
+  }
+  .score {
+    font-size: 6.5rem;
+    margin-bottom: 0;
+  }
+  .btn--new {
+    top: -7%;
+  }
+  .btn--roll {
+    top: 41%;
+    left: 85%;
+  }
+  .btn--hold {
+    top: 53.5%;
+    left: 85%;
+  }
+  .current {
+    width: 15rem;
+  }
+  .dice {
+    top: 45%;
+    height: 7rem;
+  }
+}
+
+@media (max-width: 24em) {
+  html {
+    font-size: 44%;
+  }
+}
