@@ -20,7 +20,7 @@ const modal = document.querySelector('.modal');
 const overlay = document.querySelector('.overlay');
 
 let scores, currentScore, activePlayer, playing;
-//Starting new game
+//Start a new game
 
 const init = function () {
   score0El.textContent = 0;
@@ -59,7 +59,7 @@ btnRoll.addEventListener('click', function () {
     const dice = Math.trunc(Math.random() * 6) + 1;
     //2. Display dice
     diceEl.classList.remove('hidden');
-    diceEl.src = `dice-${dice}.png`;
+    diceEl.src = `./img/dice-${dice}.png`;
     //Check for rolled 1:if true switch to new player
     if (dice !== 1) {
       //add dice to current score
